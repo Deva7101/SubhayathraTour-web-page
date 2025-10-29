@@ -405,6 +405,135 @@ const About = () => {
           </Grid>
         </Container>
       </Box>
+
+      <Box sx={{ bgcolor: 'white', py: 10 }}>
+        <Container maxWidth="xl">
+          <Box sx={{ textAlign: 'center', mb: 6 }}>
+            <Typography
+              variant="h2"
+              sx={{
+                fontWeight: 900,
+                mb: 2,
+                fontSize: { xs: '2rem', md: '3rem' },
+                letterSpacing: 1
+              }}
+            >
+              SUBHA YATHRA SERVICES
+            </Typography>
+            <Typography
+              variant="h5"
+              sx={{
+                fontWeight: 600,
+                color: 'text.secondary',
+                mb: 6
+              }}
+            >
+              THE BEST SERVICES OUR COMPANY
+            </Typography>
+          </Box>
+
+          <Grid container spacing={6} alignItems="center">
+            <Grid item xs={12} md={6}>
+              <Paper
+                elevation={0}
+                sx={{
+                  bgcolor: '#2a2a2a',
+                  color: 'white',
+                  p: 5,
+                  borderRadius: 3,
+                  borderLeft: '6px solid #ffc107',
+                  position: 'relative'
+                }}
+              >
+                <Typography
+                  variant="h4"
+                  sx={{
+                    fontWeight: 800,
+                    mb: 4,
+                    color: '#ffc107'
+                  }}
+                >
+                  The Company Head
+                </Typography>
+
+                <Typography
+                  variant="body1"
+                  sx={{
+                    lineHeight: 1.9,
+                    mb: 3,
+                    fontSize: '1rem'
+                  }}
+                >
+                  Subha Yathra Services is an SSI registered in Chennai, Tamilnadu, India.
+                </Typography>
+
+                <Typography
+                  variant="body1"
+                  sx={{
+                    lineHeight: 1.9,
+                    mb: 3,
+                    fontSize: '1rem'
+                  }}
+                >
+                  Working with a network of well established hotels and resorts, tour centre and help desks
+                </Typography>
+
+                <Typography
+                  variant="body1"
+                  sx={{
+                    lineHeight: 1.9,
+                    mb: 3,
+                    fontSize: '1rem'
+                  }}
+                >
+                  Poised to break all barriers of society to make them feel the heartbeats of this rich, varied & vibrant, cultural & religious, political and economic power house of the world.
+                </Typography>
+
+                <Typography
+                  variant="body1"
+                  sx={{
+                    lineHeight: 1.9,
+                    mb: 3,
+                    fontSize: '1rem'
+                  }}
+                >
+                  Slowly but surely, we have evolved THE BEST OF HOLIDAYS.
+                </Typography>
+
+                <Typography
+                  variant="body1"
+                  sx={{
+                    lineHeight: 1.9,
+                    fontSize: '1rem'
+                  }}
+                >
+                  These and many more make SYS a class apart. We understand people better. Its Vacations Redefined! THOUGHTFULLY
+                </Typography>
+              </Paper>
+            </Grid>
+
+            <Grid item xs={12} md={6}>
+              <Box
+                sx={{
+                  borderRadius: 3,
+                  overflow: 'hidden',
+                  boxShadow: '0 20px 60px rgba(0,0,0,0.2)'
+                }}
+              >
+                <img
+                  src="https://images.pexels.com/photos/1757363/pexels-photo-1757363.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  alt="Subha Yathra Services - Together & Alongwith"
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                    display: 'block'
+                  }}
+                />
+              </Box>
+            </Grid>
+          </Grid>
+        </Container>
+      </Box>
     </Box>
   );
 };
