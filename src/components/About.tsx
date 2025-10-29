@@ -434,6 +434,32 @@ const About = () => {
 
           <Grid container spacing={6} alignItems="center">
             <Grid item xs={12} md={6}>
+              <Box
+                sx={{
+                  borderRadius: 3,
+                  overflow: 'hidden',
+                  boxShadow: '0 20px 60px rgba(0,0,0,0.2)',
+                  bgcolor: '#000',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  p: 4
+                }}
+              >
+                <img
+                  src="/Subhatathra Corporate Logo (2).jpeg"
+                  alt="Subha Yathra Services - Together & Alongwith"
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                    display: 'block',
+                    maxWidth: '500px'
+                  }}
+                />
+              </Box>
+            </Grid>
+
+            <Grid item xs={12} md={6}>
               <Paper
                 elevation={0}
                 sx={{
@@ -510,32 +536,6 @@ const About = () => {
                   These and many more make SYS a class apart. We understand people better. Its Vacations Redefined! THOUGHTFULLY
                 </Typography>
               </Paper>
-            </Grid>
-
-            <Grid item xs={12} md={6}>
-              <Box
-                sx={{
-                  borderRadius: 3,
-                  overflow: 'hidden',
-                  boxShadow: '0 20px 60px rgba(0,0,0,0.2)',
-                  bgcolor: '#000',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  p: 4
-                }}
-              >
-                <img
-                  src="/Subhatathra Corporate Logo (2).jpeg"
-                  alt="Subha Yathra Services - Together & Alongwith"
-                  style={{
-                    width: '100%',
-                    height: 'auto',
-                    display: 'block',
-                    maxWidth: '500px'
-                  }}
-                />
-              </Box>
             </Grid>
           </Grid>
         </Container>
