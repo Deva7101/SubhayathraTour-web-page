@@ -517,16 +517,22 @@ const About = () => {
                 sx={{
                   borderRadius: 3,
                   overflow: 'hidden',
-                  boxShadow: '0 20px 60px rgba(0,0,0,0.2)'
+                  boxShadow: '0 20px 60px rgba(0,0,0,0.2)',
+                  bgcolor: '#000',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  p: 4
                 }}
               >
                 <img
-                  src="https://images.pexels.com/photos/1757363/pexels-photo-1757363.jpeg?auto=compress&cs=tinysrgb&w=800"
+                  src="/Subhatathra Corporate Logo (2).jpeg"
                   alt="Subha Yathra Services - Together & Alongwith"
                   style={{
                     width: '100%',
                     height: 'auto',
-                    display: 'block'
+                    display: 'block',
+                    maxWidth: '500px'
                   }}
                 />
               </Box>
