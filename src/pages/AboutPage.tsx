@@ -18,14 +18,26 @@ const AboutPage = () => {
           </Typography>
 
           <Typography
-            variant="h6"
+            variant="h5"
             sx={{
               color: 'text.secondary',
               mb: 4,
-              fontWeight: 500,
+              fontWeight: 600,
             }}
           >
             The Best Services Our Company
+          </Typography>
+
+          <Typography
+            variant="h6"
+            sx={{
+              color: '#1976d2',
+              mb: 4,
+              fontWeight: 600,
+              fontStyle: 'italic'
+            }}
+          >
+            The Company Head
           </Typography>
 
           <Card
@@ -83,24 +95,22 @@ const AboutPage = () => {
               <strong style={{ color: '#1976d2', fontSize: '1.3rem' }}>
                 Subha Yathra Services
               </strong>{' '}
-              is an SSI registered company based in{' '}
+              is an SSI registered in{' '}
               <strong style={{ color: '#1565c0' }}>
-                Chennai, Tamil Nadu, India.
+                Chennai, Tamilnadu, India.
               </strong>
               <br />
               <br />
-              We collaborate with a strong network of premium hotels, resorts,
-              tour centres, and local help desks to deliver unforgettable travel
-              experiences.
+              Working with a network of well established hotels and resorts, tour centre and help desks.
               <br />
-              Our goal is to connect travelers to the soul of India — its
-              cultural, spiritual, and natural heritage.
               <br />
-              Over the years, we have evolved “THE BEST OF HOLIDAYS.” Every
-              journey we design blends comfort, devotion, and discovery.
+              Poised to break all barriers of society to make them feel the heartbeats of this rich, varied & vibrant, cultural & religious, political and economic power house of the world.
               <br />
-              These and many more make SYS a class apart. We understand people
-              better — it’s Vacations Redefined!
+              <br />
+              Slowly but surely, we have evolved THE BEST OF HOLIDAYS.
+              <br />
+              <br />
+              These and many more make SYS a class apart. We understand people better. Its Vacations Redefined!
               <br />
               <br />
               <Typography
@@ -111,9 +121,11 @@ const AboutPage = () => {
                   display: 'block',
                   mt: 1,
                   fontSize: '1rem',
+                  fontWeight: 600,
+                  textTransform: 'uppercase'
                 }}
               >
-                Thoughtfully planned, lovingly conducted.
+                THOUGHTFULLY
               </Typography>
             </Typography>
           </Box>
